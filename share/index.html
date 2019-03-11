@@ -1,0 +1,263 @@
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=windows-1252">
+
+	<title>Following Devil's Footprints</title>
+
+	<!--load web font from Google-->
+	<link href="css.css" rel="stylesheet" type="text/css">
+	<link type="text/css" rel="stylesheet" href="resource/main.css">
+
+	<!--+1 button -->
+	<!--
+	<script type="text/javascript">
+
+	  (function() {
+
+	    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+
+	    po.src = 'https://apis.google.com/js/plusone.js';
+
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+
+	  })();
+
+	</script>
+	-->
+	
+	<script src="/ga.js" async="" type="text/javascript"></script><script type="text/javascript" src="/base64.js"></script>
+
+	<script type="text/javascript">
+	var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-29653616-1']);
+		_gaq.push(['_trackPageview']);
+
+	(function() {
+	  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+	</script>
+
+
+
+</head>
+
+<body>
+
+	<div class="outer"></div>
+	<div class="main">
+		<table cellpadding="0" width="100%" border="0">
+			<tbody><tr> <td width="70%">
+			<div class="title">Following Devil's Footprints: Cross-Platform Analysis of Potentially Harmful Libraries on Android and iOS </div>
+			<hr>
+
+			<p align="left"><a href="http://www.kaichen.org/">Kai Chen</a>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<a href="http://www.informatics.indiana.edu/xw7">Xiaofeng Wang</a>
+		<br>IIE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SoIC
+		<br>Chinese Academy of Sciences&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Indiana University Bloomington
+		<br>Contact:
+		
+		<a href="mailto:chenkai@iie.ac.cn">chenkai@iie.ac.cn</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="mailto:xw7@indiana.edu">xw7@indiana.edu</a>
+		
+		</p>
+		
+        
+		</td>
+
+
+<td width="30%" align="right">
+<img src="resource/footprint.png">&nbsp;&nbsp;</td></tr>
+</tbody></table>
+
+
+
+
+		<hr>
+
+
+		<p>
+
+			</p><div class="subtitle">Abstract</div>
+
+		<p></p>
+
+		
+
+		<p>
+		It is reported recently that legitimate libraries are
+		repackaged for propagating malware. An in-depth analysis of
+		such potentially-harmful libraries (PhaLibs) , however, has never
+		been done before, due to the challenges in identifying those
+		libraries whose code can be unavailable online (e.g., removed
+		from the public repositories, spreading underground, etc.). 
+		Particularly, for an iOS app, the library it integrates cannot be
+		trivially recovered from its binary code and cannot be analyzed
+		by any publicly available anti-virus (AV) systems. 
+		</p>
+
+
+
+		<p>
+		In this paper, we report the first systematic study on PhaLibs across Android
+		and iOS, based upon a key observation that many iOS libraries
+		have Android versions that can potentially be used to understand
+		their behaviors and the relations between the libraries on both
+		sides. To this end, we utilize a methodology that first clusters
+		similar packages from a large number of popular Android apps
+		to identify libraries, and strategically analyze them using AV
+		systems to find PhaLibs. Those libraries are then used to search
+		for their iOS counterparts within Apple apps based upon the
+		invariant features shared cross platforms. On each discovered iOS
+		PhaLib, our approach further identifies its suspicious behaviors
+		that also appear on its Android version and uses the AV system
+		on the Android side to confirm that it is indeed potentially
+		harmful. Running our methodology on 1.3 million Android apps
+		and 140,000 popular iOS apps downloaded from 8 markets, we
+		discovered 117 PhaLibs with 1008 variations on Android and 23
+		PhaLibs with 706 variations on iOS. Altogether, the Android
+		PhaLibs is found to infect 6.84% of Google Play apps and
+		the iOS libraries are embedded within thousands of iOS apps,
+		2.94% among those from the official Apple App Store. Looking
+		into the behaviors of the PhaLibs, not only do we discover the
+		recently reported suspicious iOS libraries such as mobiSage,
+		but also their Android counterparts and 6 other back-door
+		libraries never known before. Those libraries are found to contain
+		risky behaviors such as reading from their host apps’ keychain,
+		stealthily recording audio and video and even attempting to
+		make phone calls. Our research shows that most Android-side
+		harmful behaviors have been preserved on their corresponding
+		iOS libraries, and further identifies new evidence about libraries
+		repackaging for harmful code propagations on both sides.
+		</p>
+
+
+
+		<p>
+
+			This project was presented at
+
+			<a href="http://www.ieee-security.org/TC/SP2016/program.html">
+
+			IEEE Symposium on Security &amp; Privacy, 2016</a>.
+
+		</p>
+
+	
+
+		<hr>
+
+
+
+		<p>
+
+			</p><div class="subtitle">Publication </div>
+
+		<p></p>
+
+	
+
+		<p>
+
+			<a href="http://www.ieee-security.org/TC/SP2016/papers/0824a357.pdf">Following Devil&#39s Footprints: Cross-Platform Analysis of Potentially Harmful Libraries on Android and iOS</a>
+
+			<br><a href="http://www.kaichen.org/">Kai Chen</a>,  Xueqiang Wang, Yi Chen, Peng Wang, Yeonjoon Lee, <a href="http://www.informatics.indiana.edu/xw7">XiaoFeng Wang</a>, Bin Ma, Aohui Wang, Yingjun Zhang, Wei Zou
+
+			<br>Proceedings of the 37th IEEE Symposium on Security and Privacy
+
+				(<a href="http://www.ieee-security.org/TC/SP2016/program.html">Oakland 2016</a>)
+
+			<br>San Jose, CA, May 2016
+
+		</p>
+
+		
+
+		<hr>
+
+		<p>
+
+			</p><div class="subtitle">Dataset Release </div>
+
+		<p></p>
+ 
+
+		<p>
+
+			To mitigate the threat and help better understanding of potentially harmful iOS apps, we are releasing part of our samples to the community. Please visit <a href="download.html">download page</a> for detailed instructions.
+			
+
+		</p>
+			
+		
+
+		<hr>
+
+			
+
+		<p>
+
+			</p><div class="subtitle">Acknowledgement</div>
+
+		<p></p>
+
+		
+
+		<p>
+
+		We also thank VirusTotal for the help in validating suspicious apps in our study. Kai Chen
+		was supported in part by NSFC U1536106, 61100226, Youth
+		Innovation Promotion Association CAS, and strategic priority
+		research program of CAS (XDA06010701). The IU authors
+		are supported in part by the NSF CNS-1223477, 1223495
+		and 1527141. Yingjun Zhang was supported by National High
+		Technology Research and Development Program of China (863
+		Program) (No. 2015AA016006) and NSFC 61303248.
+
+		</p>
+
+		<p>
+		</p><center>
+		<table width="80%" border="0">
+			<tbody><tr align="center">
+			<td width="30%" align="center"><img src="resource/nsf.png" height="60">
+			</td><td width="30%" align="center"><a href="http://www.nsfc.gov.cn/publish/portal1/"><img src="resource/nsfc.png" height="60"> </a>
+			</td><td width="30%" align="center"><a href="english.cas.cn"><img src="resource/cas.png" height="60"></a>
+			</td></tr>
+		</tbody></table>
+		</center>
+		<p></p>
+
+		<hr>
+
+		
+
+		<div class="footer"> 
+
+		
+
+			<g:plusone annotation="tail"></g:plusone>    Last updated: 29/08/2016
+
+			<p></p>
+
+		
+
+		</div>
+
+
+
+	</div>
+
+
+
+ 	<div class="outer"></div>
+
+
+
+
+
+
+
+
+
+</body></html>
