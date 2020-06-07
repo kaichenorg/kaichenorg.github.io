@@ -38,6 +38,7 @@
 
 	ol {
 		list-style: decimal;
+		vertical-align: baseline;
 	}
 
 	ul {
