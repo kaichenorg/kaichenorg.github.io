@@ -36,8 +36,12 @@
 		line-height: 1;
 	}
 
-	ol, ul {
+	ol {
 		list-style: decimal;
+	}
+
+	ul {
+		list-style: none;
 	}
 
 	blockquote, q {
