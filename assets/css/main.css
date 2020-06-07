@@ -38,7 +38,9 @@
 
 	ol {
 		list-style: decimal;
+		margin: 0;
 		padding: 2.5px;
+		border: 0;
 		vertical-align: baseline;
 	}
 
