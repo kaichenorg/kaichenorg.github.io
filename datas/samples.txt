@@ -1,0 +1,163 @@
+Please note that the lists are verified in June 2020. The content of these skills may be updated at any time so that may not violate the development rules anymore.
+######################################################################################
+100 sample skills request private information but conflicting with the developer specifications:
+A Moment for Teachers by Alice Langholt
+achal's birthday by Achal B I
+Affirmation Galaxy by Jeff.J
+Age Smart by AgeSmart.io
+Allrecipes by Allrecipes
+Apartment Index by Tuli
+Appearance Plus by VoiceDryCleaner.com
+Apthorp Cleaners by VoiceDryCleaner.com
+Arch Mortgage Insurance by ArchMI
+Aston Technologies by Aston Technologies
+Atom Tickets by Atom Tickets
+Barbecue Tricks and Tips by The Barbecue Guys
+Baton Rouge Foodie by MHoward
+BBDO Voice by nickrussobbdo
+Best Internet Plans by IBEX
+Best Roomies by sagilowe
+Big Data Trivia by Rahul Gupta
+Birthday Calculator by student
+Birthday Surprise by Sammi
+Blackjack game for LAMWITTY by BOOKrec
+Bless My Day by Alice Langholt
+Brain Workout by Voice & You
+Call Reminders by CMM Tech
+Car Insurance Finder by StarButter
+City of Ottawa Garbage Pickup Schedule by Non Local
+Clever Real Estate by VoiceXP
+Cloud Connect by Voice Focused
+Collins Cleaners by VoiceDryCleaner.com
+color sensation painting by Voice First Tech
+Cooper Hurley Injury Lawyers by VoiceXP
+Country Song Quiz by Volley Inc.
+Crypto Price by craig.langford
+Daily wear by Nikhil Walvekar
+Diamond Cellar by Diamond Cellar
+Digital Socrates by Vocalize
+Dinner Time by Isaac Edmonds or by Adam Gwin
+Dr Slim by Caresiri
+Dubai Traffics by NFC
+Film Quiz by Volley Inc.
+Find Food by Cameron Pepe
+Finserv Voice by Bajaj Finserv Ltd
+Flawless Cleaners by Voice First Tech
+Fortune Maker by Tyler Lauretti
+FortuneTelling by Classmethod Inc,
+Get Stallion by Stallion Ventures, Inc.
+Get Stallion by Stallion Ventures, Inc.
+Green Girl by Foodron technologies
+GreeneStep Tech Support by GreeneStep Technologies Pvt Ltd
+Hal9000 by melvyn feuerman
+Holiday Song Quiz by Volley Inc.
+Home Care by CareDrum by KioskBeacon
+Hospitality Democracy by AJV
+House Tracker by Matchbox.io Inc
+Inspired Closets by The Stow Company
+J's Cleaner by VoiceDryCleaner.com
+Kansas Real Estate by Kansas Information Consortium, LLC
+loan-application by Francisco Correal
+Love Story by Daniel Benjamin
+Maricopa Clerk of the Superior Court by Maricopa County Clerk of the Superior Court
+Matt Dally's Franklin Tennessee Homes Curated List by app316.com
+Mc homes realty by Smart Voice Automation
+Medicare Helper by Broadstone Tech
+My Dermatologist by My Dermatologist
+My Memos by sodeko, Alexander Gemmel
+MyFoodFinder by AksharJP
+Name Analysis by Ashish Jha
+New Orleans Foodie by MHoward
+NIH Stroke Scale by Default User
+Park Creek Reservations by VoCo
+Phi by Valerie Najera
+Phone Tracker by S4 Technology, Inc.
+Pick a book by Ju's Apps
+Positive Living by Studio Carlton
+Praise Me by Jackson Jacob
+Prayer Time by Lokesh Rishi
+Pregnancy Calendar by DVG Media
+QVC by QVC, Inc.
+Rocket Mortgage by Quicken Loans Inc.
+Saint petersburg Real Estate by Voiceter Pro Inc
+Seven wonders of the world by Quadrigo
+Shyft Auto by Kloud DMS
+Stone Butte Phoenix by MeghanBacks.com
+Sudsies Cleaners by VoiceDryCleaner.com
+Susan Miller's Astrology Zone by Phunware
+Talents for Good by Voice Data Soft
+The King Lives On! by Aidan Chadha
+The Name Game Song by Webguild
+Tipsy Test by Lello
+Top Agent Directory by Top Real Estate Agent, Inc.
+Toyota Finder by Toyota
+travel genius by hwbdhwd
+Twisted movie quotes by Isaac
+Voiceflow Compliment Wizard by Voiceflow
+Volley Family Trivia Game by Volley Inc.
+Water Picker by Michael Kitlan
+What Occurred First by Little White Dog inc
+What's AI? by EduTech Innovation
+Which desk is mine by Gabriel Mendez
+Wild About Cleaning by RJ Media Studios
+Yes Captain by Ai galleries
+
+######################################################################################
+10 sample skills conflicting with the “Stop” command:
+Election Survey
+Mortgage Minute
+Shoe advisor
+Yellow Fame 
+FeedMe
+math-training
+Malignant Tweets
+Travelers Home Central
+Millennial Money
+Fundamental Valuation
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
