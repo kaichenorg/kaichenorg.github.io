@@ -1,14 +1,159 @@
-<h1>Research Overview</h1>
+<!DOCTYPE HTML>
+<!--
+	Halcyonic by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Advance - Tools</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+	</head>
+	<body class="subpage">
+		<div id="page-wrapper">
 
-<p>To use library APIs, a developer is supposed to follow guidance and respect some constraints, which we call <em>integration assumptions</em> (<em>IAs</em>). Violations of these assumptions can have serious consequences, introducing security-critical flaws such as use-after-free, NULL-dereference, and authentication
-errors. Analyzing a program for compliance with IAs involves significant effort and needs to be automated. A promising direction is to automatically recover IAs from a library document using Natural Language Processing (NLP) and then verify their consistency with the ways APIs are used in a program through code analysis. However, a practical solution along this line needs to overcome several key challenges, particularly the discovery of IAs from loosely formatted documents and interpretation of their informal descriptions to identify complicated constraints (e.g., data-/control-flow relations between different APIs). </p>
+			<!-- Header -->
+				<div id="header-wrapper">
+					<header id="header" class="container">
+						<div class="row">
+							<div class="12u">
 
-<p>In this paper, we present a new technique for automated assumption discovery and verification derivation from library documents. Our approach, called <em>Advance</em>, utilizes a suite of innovations to address those challenges. More specifically, we leverage the observation that IAs tend to express a strong sentiment in emphasizing the importance of a constraint, particularly those security-critical, and utilize a new sentiment analysis model to accurately recover them from loosely formatted documents. These IAs are further processed to identify hidden references to APIs and parameters, through an embedding model, to identify the information-flow relations expected to be followed. Then our approach runs frequent subtree mining to discover the grammatical units in IA sentences that tend to indicate some categories of constraints that could have security implications. These components are mapped to verification code snippets organized in line with the IA sentence&#39;s grammatical structure, and can be assembled into verification code executed through CodeQL to discover misuses inside a program. We implemented this design and evaluated it on 5 popular libraries (OpenSSL, SQLite, libpcap, libdbus and libxml2) and 39 real-world applications. Our analysis discovered 193 API misuses, including 139 flaws never reported before.</p>
+								<!-- Logo -->
+									<h1><a href="http://www.kaichen.org/" id="logo">Kai Chen</a></h1>
 
-<h1>Download</h1>
+								<!-- Nav -->
+									<nav id="nav">
+										<a href="index.html">Home</a>
+										<a href="Research.html">Research</a>																				
+										<a href="Publication.html">Publication</a>
+										<a href="People.html">People</a>
+										<a href="News.html">News</a>
+									</nav>
 
-<p>You can donwload <em>Advance</em> from <a href="https://github.com/lvtao-sec/Advance.git">github</a>.</p>
+							</div>
+						</div>
+					</header>
+				</div>
 
-<h1>Usage</h1>
+			<!-- Content -->
+				<div id="content-wrapper">
+					<div id="content">
+						<div class="container">
+							<div class="row">
+								<div class="9u 12u(mobile)">
 
-<p>TODO</p>
+									<!-- Main Content -->
+										<section>
+											<header>
+												<h2>Research Overview</h2>												
+											</header>
+											<p>
+                                                To use library APIs, a developer is supposed to follow guidance and respect some constraints, which we call <em>integration assumptions</em> (<em>IAs</em>). Violations of these assumptions can have serious consequences, introducing security-critical flaws such as use-after-free, NULL-dereference, and authentication errors. Analyzing a program for compliance with IAs involves significant effort and needs to be automated. A promising direction is to automatically recover IAs from a library document using Natural Language Processing (NLP) and then verify their consistency with the ways APIs are used in a program through code analysis. However, a practical solution along this line needs to overcome several key challenges, particularly the discovery of IAs from loosely formatted documents and interpretation of their informal descriptions to identify complicated constraints (e.g., data-/control-flow relations between different APIs). 
+                                            </p>
+                                            <p>In this paper, we present a new technique for automated assumption discovery and verification derivation from library documents. Our approach, called <em>Advance</em>, utilizes a suite of innovations to address those challenges. More specifically, we leverage the observation that IAs tend to express a strong sentiment in emphasizing the importance of a constraint, particularly those security-critical, and utilize a new sentiment analysis model to accurately recover them from loosely formatted documents. These IAs are further processed to identify hidden references to APIs and parameters, through an embedding model, to identify the information-flow relations expected to be followed. Then our approach runs frequent subtree mining to discover the grammatical units in IA sentences that tend to indicate some categories of constraints that could have security implications. These components are mapped to verification code snippets organized in line with the IA sentence&#39;s grammatical structure, and can be assembled into verification code executed through CodeQL to discover misuses inside a program. We implemented this design and evaluated it on 5 popular libraries (OpenSSL, SQLite, libpcap, libdbus and libxml2) and 39 real-world applications. Our analysis discovered 193 API misuses, including 139 flaws never reported before.</p>
+
+                                            <br></br>
+																														
+											<header>
+												<h2>Download</h2>												
+											</header>
+                                            <p>You can donwload <em>Advance</em> from <a href="https://github.com/lvtao-sec/Advance.git">github</a>.</p>
+                                            
+                                            <br></br>
+                                            
+                                            <header>
+												<h2>Usage</h2>											
+                                            </header>
+                                            <p>TODO</p>
+										</u>
+										</section>
+
+								</div>
+								<div class="3u 12u(mobile)">
+
+									<!-- Sidebar -->
+										<section>
+											<header>
+												<h2>News</h2>
+											</header>
+											<ul class="link-list">
+												<li>1. <a href="News.html"><b>Recruiting</b></a>: Our lab is looking for Research Assistants (staff member), Post-Doctors, Ph.D. Students, MS Students, and Interns. If you are interested in our group, please contact us.</li>
+												<li>2. <a href="News.html"><b>Congratulation</b></a>: Kai Chen got the award "National Top-notch Youth Talents Program of China" (国家“万人计划”青年拔尖人才) </li>		
+												<li>3. <a href="News.html"><b>Congratulation</b></a>: Kai Chen got the award "Beijing Nova Program" (北京市“科技新星”) </li>
+												<li>4. <a href="News.html"><b>Congratulation</b></a>: Our paper "CommanderSong: A Systematic Approach for Practical Adversarial Voice Recognition" was accepted by the 27th USENIX Security Symposium (USENIX Security, 2018). </li>
+												<li>5. <a href="News.html"><b>Congratulation</b></a>: Our paper "Mass Discovery of Android Traffic Imprints through Instantiated Partial Execution" was accepted by the 24th ACM Conference on Computer and Communications Security (CCS 2017). </li>
+												<li>6. <a href="News.html"><b>Congratulation</b></a>: Our paper "SemFuzz: Semantics-based Automatic PoC Generation" was accepted by the 24th ACM Conference on Computer and Communications Security (CCS 2017). </li>
+												<li>7. <a href="News.html"><b>Congratulation</b></a>: Our paper "Unleashing the Walking Dead: Understanding Cross-App Remote Infections on Mobile WebViews" was accepted by the 24th ACM Conference on Computer and Communications Security (CCS 2017). </li>
+												<li>8. <a href="News.html"><strong>MassVet</strong></a>: a system for a large-scale analysis of potentially-harmful apps and mobile libraries.  Here is the <a href="http://sit.soic.indiana.edu/en/2015/09/06/massvet-usenix/">demo and media reports</a> of the system.</li>
+											</ul>
+										</section>
+
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			<!-- Footer -->
+				<div id="footer-wrapper">
+					<footer id="footer" class="container">
+						<div class="row">
+							<div class="12u 12u(mobile)">
+
+								<!-- Links -->
+									<section>
+										<header>
+											<h2>Contact</h2>
+										</header>								
+										
+										<div>
+											<div class="row">
+												<div class="2u 12u(mobile)">
+													
+												</div>
+												<div class="2u 12u(mobile)">
+													<ul class="link-list last-child">
+														<li>Address:</li>
+														<li>Email:</li>
+														<li>Homepage:</li>
+													</ul>
+												</div>
+												<div class="8u 12u(mobile)">
+													<ul class="link-list last-child">
+														<li>No. 89, Minzhuang Road, Haidian District, Beijing, China. Postcode: 100195</li>
+														<li>chenkai@iie.ac.cn</li>
+														<li><a href="http://www.kaichen.org/">http://www.kaichen.org/</a></li>
+													</ul>
+												</div>
+												
+											</div>
+										</div>
+									</section>
+
+							</div>
+							
+						</div>
+					</footer>
+				</div>
+
+			<!-- Copyright -->
+				<div id="copyright">
+					&copy; 2015-2016 Kai Chen. All rights reserved. | Design: <a href="http://html5up.net">HTML5 UP</a>
+				</div>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/skel-viewport.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
