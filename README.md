@@ -49,3 +49,7 @@ Email: XXX@iie.ac.cn / or some
 ### Use an easy-maintaining framework
 
 Find a framework and try to migrate.
+
+## More than the Theme
+
+- [scripts](./scripts/): some useful scripts for project management.
