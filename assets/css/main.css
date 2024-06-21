@@ -1924,3 +1924,43 @@
 			}
 
 	}
+
+/* 新增的 Sidebar 样式 */
+#sidebar {
+	position: fixed;
+	top: 200px; /* 根据你的 header 高度调整 */
+	right: 50px;
+	width: 200px; /* 根据需要调整宽度 */
+	background: #eeeeee; /* 侧边栏背景颜色 */
+	border-radius: 5px;
+	padding: 10px;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+#sidebar nav ul {
+	list-style: none;
+	padding: 0;
+}
+
+#sidebar nav ul li {
+	margin: 10px 0;
+}
+
+#sidebar nav ul li a {
+	color: #333;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#sidebar nav ul li a:hover {
+	text-decoration: underline;
+}
+
+/* 针对移动设备的媒体查询 */
+@media screen and (max-width: 768px) {
+	#sidebar {
+		position: static;
+		width: 100%;
+		box-shadow: none;
+	}
+}
