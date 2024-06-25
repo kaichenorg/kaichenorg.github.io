@@ -1164,7 +1164,46 @@
 			font-size: 0.9em;
 			font-weight: 400;
 		}
+		.student-list {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between; /* Adjust spacing between items */
+			padding: 0;
+			list-style: none;
+		}
 		.student-list li {
+			flex: 0 0 48.5%; /* Adjust to fit two items per row (48% to account for margins) */
+			padding: 1em 0;
+			overflow: hidden;
+			margin: 0 0 2em 0; /* Adjust spacing between items */
+			background: #fff;
+			border-radius: 5px;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+		}
+		
+		.student-list li img {
+			float: left;
+			margin-right: 20px;
+		}
+		
+		.student-list li h3 {
+			margin: 0 0 0 180px;
+			font-size: 1.2em;
+		}
+		
+		.student-list li h4 {
+			margin: 0 0 0 180px;
+			font-size: 1em;
+		}
+		
+		.student-list li p {
+			display: block;
+			margin-left: 180px;
+			font-size: 0.9em;
+			font-weight: 400;
+		}
+		/* Commented by Zhiyu, the following css are old ones. */
+		/* .student-list li {
 		padding: 1em 0 1em 0;
 		overflow: hidden;
 	}
@@ -1198,7 +1237,7 @@
 			margin-left: 180px;
 			font-size: 0.9em;
 			font-weight: 400;
-		}
+		} */
 
 	.check-list li {
 		padding: 0.7em 0 0.7em 45px;
@@ -1455,7 +1494,7 @@
 
 			#content h3 {
 				color: #96a9b5;
-				font-size: 1.25em;
+				font-size: 1.3em;
 			}
 
 			#content a {
@@ -1572,7 +1611,7 @@
 			}
 
 			#content h3 {
-				font-size: 1.1em;
+				font-size: 1.15em;
 			}
 
 			#content header {
@@ -1723,7 +1762,7 @@
 
 			#content h3 {
 				color: #96a9b5;
-				font-size: 1em;
+				font-size: 1.1em;
 			}
 
 			#content a {
@@ -1963,4 +2002,13 @@
 		width: 100%;
 		box-shadow: none;
 	}
+	.student-list li {
+        flex: 0 0 100%; /* Stack items on small screens */
+        margin-bottom: 1em;
+    }
+
+    .student-list li img, .student-list li h3, .student-list li h4, .student-list li p {
+        margin-left: 0;
+        text-align: center;
+    }
 }
