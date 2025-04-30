@@ -2012,3 +2012,118 @@
         text-align: center;
     }
 }
+
+
+
+.papers-container {
+    height: 1000px; /* 可调整高度 */
+    overflow-y: auto;
+    padding-right: 10px;
+}
+
+/* 美化滚动条样式 */
+.papers-container::-webkit-scrollbar {
+    width: 10px;
+}
+
+.papers-container::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+.papers-container::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 4px;
+}
+
+.papers-container::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+
+/* 轮播容器样式 */
+.tools-carousel-container {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* 轮播区域样式 */
+.tools-carousel {
+    position: relative;
+    width: calc(100% - 90px); /* 减去左右箭头的空间 */
+    margin: 0 auto; /* 居中显示 */
+    overflow: hidden;
+}
+
+/* 轮播内容样式 */
+.carousel-content {
+    display: flex;
+    transition: transform 0.4s ease;
+    gap: 10px;
+}
+
+/* 工具卡片样式 */
+.tool-card {
+    flex: 0 0 calc(50% - 10px); /* 每行显示2个卡片，间距平分 */
+    max-width: calc(50% - 10px);
+    padding: 15px;
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+}
+
+.tool-card img {
+    width: 100%;
+    height: 350px; /* 固定图片高度 */
+    object-fit: cover; /* 保持图片比例 */
+    border-radius: 4px;
+}
+
+.tool-card h3 {
+    color: #fff;
+    margin: 10px 0;
+    font-size: 1.2em;
+}
+
+/* 轮播按钮样式 */
+.carousel-buttons button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 3; /* 确保按钮始终在最上层 */
+    transition: background 0.3s;
+}
+
+.carousel-buttons button:hover {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.prev-btn { left: 0px; }
+.next-btn { right: 0px; }
+
+/* 轮播点样式 */
+.carousel-dots {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 8px;
+}
+
+.dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.3);
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.dot.active {
+    background: white;
+}
