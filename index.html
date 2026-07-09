@@ -286,6 +286,7 @@
 			<div id="copyright">
 				&copy; 2015-2025 Kai Chen. All rights reserved. | Design: <a href="http://html5up.net">HTML5 UP</a>
 			</div>
+			<span class="visit-counter" id="visit-counter">Visits: …</span>
 		</div>
 
 		<!-- Scripts -->
@@ -295,6 +296,16 @@
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
+		<script>
+			(function () {
+				var el = document.getElementById('visit-counter');
+				if (!el) return;
+				fetch('https://api.counterapi.dev/v1/kaichen-org/site-visits/up')
+					.then(function (r) { return r.json(); })
+					.then(function (d) { if (d && d.count != null) el.textContent = 'Visits: ' + Number(d.count).toLocaleString(); })
+					.catch(function () { el.textContent = ''; });
+			})();
+		</script>
 
 	</body>
 </html>

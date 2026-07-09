@@ -1294,7 +1294,7 @@
 			display: flex;
 			gap: 1.5em;
 			align-items: center;
-			padding: 1.05em 0;
+			padding: 0.8em 0;
 			border-bottom: 1px solid #ededed;
 		}
 
@@ -2280,12 +2280,12 @@
 	position: sticky;
 	top: 0;
 	z-index: 100;
-	background: rgba(255, 255, 255, 0.92);
-	-webkit-backdrop-filter: blur(6px);
-	backdrop-filter: blur(6px);
-	border-bottom: 1px solid #e8e8e8;
-	padding: 0.6em 1em;
-	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+	background: rgba(255, 255, 255, 0.8);
+	-webkit-backdrop-filter: blur(16px) saturate(1.6);
+	backdrop-filter: blur(16px) saturate(1.6);
+	border-bottom: 1px solid #cdd3da;
+	padding: 0.9em 1em;
+	box-shadow: 0 6px 22px rgba(0, 0, 0, 0.1);
 }
 
 #sidebar nav ul {
@@ -2305,12 +2305,12 @@
 
 #sidebar nav ul li a {
 	display: inline-block;
-	padding: 0.3em 0.95em;
+	padding: 0.4em 1.1em;
 	border-radius: 999px;
-	background: #eef0f2;
+	background: #e6ebf2;
 	color: #304174;
 	font-weight: 600;
-	font-size: 0.88em;
+	font-size: 0.9em;
 	text-decoration: none;
 	white-space: nowrap;
 	transition: background 0.15s, color 0.15s;
@@ -2526,4 +2526,25 @@
 	color: #fff;
 	background: transparent;
 	border-bottom-color: #fff;
+}
+/* Hidden visit counter: transparent until text-selected (owner-only peek) */
+.visit-counter {
+	position: fixed;
+	right: 12px;
+	bottom: 6px;
+	z-index: 90;
+	font-size: 0.78em;
+	color: transparent;
+	background: transparent;
+	padding: 2px 6px;
+	cursor: text;
+	-webkit-user-select: text;
+	user-select: text;
+	pointer-events: auto;
+}
+
+.visit-counter::selection,
+.visit-counter *::selection {
+	color: #304174;
+	background: #fff2a8;
 }
